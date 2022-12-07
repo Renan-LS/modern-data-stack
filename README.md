@@ -9,6 +9,7 @@ Setup do ambiente de desenvolvimento (Hardware, Software - Linux, Python, Docker
 Setar as Permissoes do Gitpod ao Repositorio no Github X
 
 Subir o Airbyte via docker X
+    -  git clone -b modern-data-stack https://github.com/Renan-LS/airbyte.git /*URL do meu git*/
 
 Subir o Airflow via docker X
 
