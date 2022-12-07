@@ -9,51 +9,54 @@ Setup do ambiente de desenvolvimento (Hardware, Software - Linux, Python, Docker
 Setar as Permissoes do Gitpod ao Repositorio no Github X
 
 Subir o Airbyte via docker X
-    -  git clone -b modern-data-stack https://github.com/Renan-LS/airbyte.git /*URL do meu git*/
+    -   git clone -b modern-data-stack https://github.com/Renan-LS/airbyte.git /*URL do meu git*/
+        dessa maneira, utilizando de workspace na nuvem, eu posso anexar o codigo do Airbyte a meu git, e feito isto,
+        crio uma branch secundaria para poder salvar as alteracoes do ambiente AirByte e replicar em outros projetos.
 
-Subir o Airflow via docker X
+Subir o Airflow via docker 
 
-Subir o Metabase via docker X
+Subir o Metabase via docker 
 
-Criar o script de execução ?
+Criar o script de execução 
 
-Testar a Execução ?
+Testar a Execução 
 
 Snowflake Data Warehouse:
 
-Criar a Conta no SnowFlake X
-Verificar a existência das tabelas X
-Obter os links de conexão e nome da conta X
+Criar a Conta no SnowFlake 
+Verificar a existência das tabelas 
+Obter os links de conexão e nome da conta 
 Extração:
 
 No Airbyte:
 
-Conectar com as origens baseadas nos Csvs X
-Criar as entidades no snowflake através do script base da documentação X
-Conectar o destino no snowflake X
-Criar as conexões do airbyte associando as origens ao destino X
-Testar as conexões X
+Conectar com as origens baseadas nos Csvs 
+Criar as entidades no snowflake através do script base da documentação 
+Conectar o destino no snowflake 
+Criar as conexões do airbyte associando as origens ao destino 
+Testar as conexões 
 Preparação:
 
 No Airbyte (Destination Loading Method):
 
-Local Staging (Ambiente de Desenvolvimento) X
-Cloud Staging (Ambiente de Produção) X
+Local Staging (Ambiente de Desenvolvimento) 
+Cloud Staging (Ambiente de Produção) 
 Transformação:
 
 No Dbt:
 
-Criação da Conta X
-Conexão com o Github X
-Criação do Dbt Project X
-Criação do Profile de conexão com o snowflake X
-Criação do Schema X
-Criação dos Modelos Base X
-Criação do Modelo Relacionado X
-Visualização gráfica do modelo X
-Teste de execução X
-Commits, Branches, Pull Requests, Merges no Github X
-Obtenção do link de conexão com o Airbyte X
+Criação da Conta 
+Conexão com o Github 
+Criação do Dbt Project 
+Criação do Profile de conexão com o snowflake 
+Criação do Schema 
+Criação dos Modelos Base 
+Criação do Modelo Relacionado 
+Visualização gráfica do modelo 
+
+Teste de execução 
+Commits, Branches, Pull Requests, Merges no Github 
+Obtenção do link de conexão com o Airbyte 
 Visualização:
 
 No Metabase:
