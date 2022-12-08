@@ -20,6 +20,16 @@ Subir o Airbyte via docker X
         arquivo chamado docker-compose.yaml
 
 Subir o Airflow via docker 
+     -   separar por pastas os serviços
+
+    -   Procurar "airflow docker" e abrir a documentação(sempre fazer isto)
+        -  baixar o docker-compose do airflow curl -LfO 'https://airflow.apache.org/docs/apache-airflow/2.5.0/docker-compose.yaml'
+        -  crir alguns arquivos que a documentação  exige 
+        - depois subir um *docker compose up airflow-init*
+        - agora sobe o resto dos serviços com *docker-compose up*
+        - porta que vai estar disponível o serviço do AirFlow é 8080, e o usuário e senha configurados como padrão é *airflow*
+
+            **.GITIGNORE - ARQUIVO CRIADO DENTRO DA ESTRUTURA DO PROJETO EM QUE EU DESEJO QUE AS ATUALIZAÇÕES SEJAM IGNORADAS!!****
 
 Subir o Metabase via docker 
 
