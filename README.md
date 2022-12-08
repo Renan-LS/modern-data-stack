@@ -74,22 +74,22 @@ No Dbt:
 
 Criação da Conta x
 Conexão com o Github x 
-Criação do Dbt Project
+Criação do Dbt Project x
     -   Nessa parte tem que realizar algumas configurações basicas no arquivo dbt_project.yml
         Criação do Profile de conexão com o snowflake 
             -cria um arquivo chamado "profiles.yaml" dentro da pasta dbt-model
-        Criação do Schema 
-        Criação dos Modelos Base
-Criação do Modelo Relacionado 
+        Criação do Schema x
+        Criação dos Modelos Base x
+Criação do Modelo Relacionado x
 
 **todos esses passos acima estão detalhados no README.md do dbt**
 
 
-Visualização gráfica do modelo 
+Visualização gráfica do modelo x
 
-Teste de execução 
-Commits, Branches, Pull Requests, Merges no Github 
-Obtenção do link de conexão com o Airbyte 
+Teste de execução x
+Commits, Branches, Pull Requests, Merges no Github x 
+Obtenção do link de conexão com o Airbyte x
 Visualização:
 
 No Metabase:
