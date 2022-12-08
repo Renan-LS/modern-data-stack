@@ -103,9 +103,15 @@ Orquestração:
 
 No Airflow:
 
-Criar a dag
+Criar a dag (script de tarefas que quero realizar)
+    1º cria as conexões - Airflow -> Admin -> Connections 
+        -ps: ao criar a conexão com airbyte, o Airflow não reconheceu o tipo de conexão, logo há necessidade de baixar uma biblioteca para tal (plugin do docker[lado esquerdo] -> airflow -> airflow-webserver -> Attach Shell -> pip install apache-airflow-providers-airbyte)
 
-Criar a Docker network
+Criar a Docker network - NECESSÁRIA PARA QUE OS CONTAINERS SE ENXERGUEM E SE COMUNIQUEM
+    -   para saber quais networks existem e onde os containers estao (docker network ls)
+    -   para criar uma nova rede (docker network create modern-data-stack[modern-data-stack é só um exemplo])
+    -   para saber QUEM está em cada rede (docket network inspect [modern-data-stack])
+    -   para conectar containers  na minha rede docker network connect [modern-data-stack exemploDeServiço]
 
 Incluir nos composes a network criada
 
