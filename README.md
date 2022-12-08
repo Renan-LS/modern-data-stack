@@ -12,6 +12,12 @@ Subir o Airbyte via docker X
     -   git clone -b modern-data-stack https://github.com/Renan-LS/airbyte.git /*URL do meu git*/
         dessa maneira, utilizando de workspace na nuvem, eu posso anexar o codigo do Airbyte a meu git, e feito isto,
         crio uma branch secundaria para poder salvar as alteracoes do ambiente AirByte e replicar em outros projetos.
+    
+    -   importante ressaltar que o Airbyte roda na porta 8000, E através do guia inferior ao lado do botao TERMINAL, PORTS
+        consigo verificar os serviços que estao rodando em cada porta
+
+        ps: Para verificar a relação de serviços e suas respectivas portas, bem como várias outras informaçõoes, procurar o 
+        arquivo chamado docker-compose.yaml
 
 Subir o Airflow via docker 
 
