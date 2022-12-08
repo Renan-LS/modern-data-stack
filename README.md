@@ -106,6 +106,7 @@ No Airflow:
 Criar a dag (script de tarefas que quero realizar)
     1º cria as conexões - Airflow -> Admin -> Connections 
         -ps: ao criar a conexão com airbyte, o Airflow não reconheceu o tipo de conexão, logo há necessidade de baixar uma biblioteca para tal (plugin do docker[lado esquerdo] -> airflow -> airflow-webserver -> Attach Shell -> pip install apache-airflow-providers-airbyte)
+    2º para criar a dag vai no menu esquerdo airflow -> dags -> cria um arquivo dag_airbyte_dbt.py
 
 Criar a Docker network - NECESSÁRIA PARA QUE OS CONTAINERS SE ENXERGUEM E SE COMUNIQUEM
     -   para saber quais networks existem e onde os containers estao (docker network ls)
