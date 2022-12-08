@@ -79,7 +79,7 @@ Criação do Dbt Project
         Criação do Profile de conexão com o snowflake 
             -cria um arquivo chamado "profiles.yaml" dentro da pasta dbt-model
         Criação do Schema 
-        Criação dos Modelos Base 
+        Criação dos Modelos Base
 Criação do Modelo Relacionado 
 
 **todos esses passos acima estão detalhados no README.md do dbt**
