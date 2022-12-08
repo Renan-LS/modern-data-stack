@@ -31,10 +31,12 @@ Subir o Airflow via docker x
 
             **.GITIGNORE - ARQUIVO CRIADO DENTRO DA ESTRUTURA DO PROJETO EM QUE EU DESEJO QUE AS ATUALIZAÇÕES SEJAM IGNORADAS!!****
 
-Subir o Metabase via docker 
+Subir o Metabase via docker x
     -   ao procurar "docker metabase" a documentação original irá me indicar a realizar a instalação do Metabase através de "docker run" fazendo com que o metabase rode em um container isolado. De modo a manter a mesma linha de arquitetura, iremos 
     fazer de maneira manual o docker-compose do Metabase, procurando no google docker-compose.yaml metabase, e criando este arquivo dentro da pasta do mesmo"
     -   copia o que achar no google e cola dentro do arquivo docker-compose.yaml , retirando a parte do postgress que não me interessa e as referencias a ele
+
+    ps: ele pediu na aula para alterar a porta para 3000, mas deixei na que veio 3001
 
 Criar o script de execução 
 
@@ -42,24 +44,27 @@ Testar a Execução
 
 Snowflake Data Warehouse:
 
-Criar a Conta no SnowFlake 
-Verificar a existência das tabelas 
-Obter os links de conexão e nome da conta 
+Criar a Conta no SnowFlake x
+Verificar a existência das tabelas x 
+    -   verificar o .csv que serão usados (https://health.google.com/covid-19/open-data/raw-data)
+        tabelas que serão usadas: Epidemiology , Economy
+
+Obter os links de conexão e nome da conta x
 Extração:
 
 No Airbyte:
 
-Conectar com as origens baseadas nos Csvs 
-Criar as entidades no snowflake através do script base da documentação 
-Conectar o destino no snowflake 
-Criar as conexões do airbyte associando as origens ao destino 
-Testar as conexões 
+Conectar com as origens baseadas nos Csvs x
+Criar as entidades no snowflake através do script base da documentação x
+Conectar o destino no snowflake x
+Criar as conexões do airbyte associando as origens ao destino x
+Testar as conexões x
 Preparação:
 
 No Airbyte (Destination Loading Method):
 
-Local Staging (Ambiente de Desenvolvimento) 
-Cloud Staging (Ambiente de Produção) 
+Local Staging (Ambiente de Desenvolvimento) x
+Cloud Staging (Ambiente de Produção) x
 Transformação:
 
 No Dbt:
