@@ -15,7 +15,7 @@ Subir o Airbyte via docker X
     
     -   importante ressaltar que o Airbyte roda na porta 8000, E através do guia inferior ao lado do botao TERMINAL, PORTS
         consigo verificar os serviços que estao rodando em cada porta
-
+  
         ps: Para verificar a relação de serviços e suas respectivas portas, bem como várias outras informaçõoes, procurar o 
         arquivo chamado docker-compose.yaml
 
