@@ -1,4 +1,4 @@
---SCRIPT QUE CRIA O ESQUEMA DO DW NO SNOWFLAKE - modelo de Script obtido dentro do proprio exemplo do Airbyte
+--SCRIPT QUE CRIA O ESQUEMA DO DW NO SNOWFLAKE - modelo de Script obtido dentro do proprio exemplo do Airbyte -  
 --IMPORTANTE: ao colocar este arquivo no GIT, os metadados relacionados a Senhas, nomes de Database,Schema, bem como outros,
 --se torna público.. **se atentar de ao realizar outro projeto, modificar e guardar em outro local esses dados**
 

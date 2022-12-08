@@ -8,7 +8,7 @@ Setup do ambiente de desenvolvimento (Hardware, Software - Linux, Python, Docker
 
 Setar as Permissoes do Gitpod ao Repositorio no Github X
 
-Subir o Airbyte via docker X
+Subir o Airbyte via docker X - PORTA 8000
     -   git clone -b modern-data-stack https://github.com/Renan-LS/airbyte.git /*URL do meu git*/
         dessa maneira, utilizando de workspace na nuvem, eu posso anexar o codigo do Airbyte a meu git, e feito isto,
         crio uma branch secundaria para poder salvar as alteracoes do ambiente AirByte e replicar em outros projetos.
@@ -19,7 +19,7 @@ Subir o Airbyte via docker X
         ps: Para verificar a relação de serviços e suas respectivas portas, bem como várias outras informaçõoes, procurar o 
         arquivo chamado docker-compose.yaml
 
-Subir o Airflow via docker x
+Subir o Airflow via docker 8080
      -   separar por pastas os serviços
 
     -   Procurar "airflow docker" e abrir a documentação(sempre fazer isto)
@@ -31,7 +31,7 @@ Subir o Airflow via docker x
 
             **.GITIGNORE - ARQUIVO CRIADO DENTRO DA ESTRUTURA DO PROJETO EM QUE EU DESEJO QUE AS ATUALIZAÇÕES SEJAM IGNORADAS!!****
 
-Subir o Metabase via docker x
+Subir o Metabase via docker x PORTA 3001
     -   ao procurar "docker metabase" a documentação original irá me indicar a realizar a instalação do Metabase através de "docker run" fazendo com que o metabase rode em um container isolado. De modo a manter a mesma linha de arquitetura, iremos 
     fazer de maneira manual o docker-compose do Metabase, procurando no google docker-compose.yaml metabase, e criando este arquivo dentro da pasta do mesmo"
     -   copia o que achar no google e cola dentro do arquivo docker-compose.yaml , retirando a parte do postgress que não me interessa e as referencias a ele
@@ -65,17 +65,26 @@ No Airbyte (Destination Loading Method):
 
 Local Staging (Ambiente de Desenvolvimento) x
 Cloud Staging (Ambiente de Produção) x
-Transformação:
+
+
+
+Transformação: **modelagem**
 
 No Dbt:
 
-Criação da Conta 
-Conexão com o Github 
-Criação do Dbt Project 
-Criação do Profile de conexão com o snowflake 
-Criação do Schema 
-Criação dos Modelos Base 
+Criação da Conta x
+Conexão com o Github x 
+Criação do Dbt Project
+    -   Nessa parte tem que realizar algumas configurações basicas no arquivo dbt_project.yml
+        Criação do Profile de conexão com o snowflake 
+            -cria um arquivo chamado "profiles.yaml" dentro da pasta dbt-model
+        Criação do Schema 
+        Criação dos Modelos Base 
 Criação do Modelo Relacionado 
+
+**todos esses passos acima estão detalhados no README.md do dbt**
+
+
 Visualização gráfica do modelo 
 
 Teste de execução 
