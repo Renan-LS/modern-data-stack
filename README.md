@@ -19,7 +19,7 @@ Subir o Airbyte via docker X
         ps: Para verificar a relação de serviços e suas respectivas portas, bem como várias outras informaçõoes, procurar o 
         arquivo chamado docker-compose.yaml
 
-Subir o Airflow via docker 
+Subir o Airflow via docker x
      -   separar por pastas os serviços
 
     -   Procurar "airflow docker" e abrir a documentação(sempre fazer isto)
@@ -32,6 +32,9 @@ Subir o Airflow via docker
             **.GITIGNORE - ARQUIVO CRIADO DENTRO DA ESTRUTURA DO PROJETO EM QUE EU DESEJO QUE AS ATUALIZAÇÕES SEJAM IGNORADAS!!****
 
 Subir o Metabase via docker 
+    -   ao procurar "docker metabase" a documentação original irá me indicar a realizar a instalação do Metabase através de "docker run" fazendo com que o metabase rode em um container isolado. De modo a manter a mesma linha de arquitetura, iremos 
+    fazer de maneira manual o docker-compose do Metabase, procurando no google docker-compose.yaml metabase, e criando este arquivo dentro da pasta do mesmo"
+    -   copia o que achar no google e cola dentro do arquivo docker-compose.yaml , retirando a parte do postgress que não me interessa e as referencias a ele
 
 Criar o script de execução 
 
