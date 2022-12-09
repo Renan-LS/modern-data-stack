@@ -99,8 +99,8 @@ Criar uma Question
 Criar um Dashboard
 Adicionar uma Question
 Visualizar o Resultado
-Orquestração:
-
+Orquestração: 
+ 
 No Airflow:
 
 Criar a dag (script de tarefas que quero realizar)
@@ -111,7 +111,7 @@ Criar a dag (script de tarefas que quero realizar)
 Criar a Docker network - NECESSÁRIA PARA QUE OS CONTAINERS SE ENXERGUEM E SE COMUNIQUEM
     -   para saber quais networks existem e onde os containers estao (docker network ls)
     -   para criar uma nova rede (docker network create modern-data-stack[modern-data-stack é só um exemplo])
-    -   para saber QUEM está em cada rede (docket network inspect [modern-data-stack])
+    -   para saber QUEM está em cada rede (docket network inspect [modern-data-stack]) 
     -   para conectar containers  na minha rede docker network connect [modern-data-stack exemploDeServiço]
 
 Incluir nos composes a network criada

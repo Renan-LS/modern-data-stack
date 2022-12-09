@@ -1,3 +1,4 @@
+## utilizado para subir - configurar - derrubar o ambiente
 #!/usr/bin/env bash
 up() {
   echo "Starting Airbyte..."
