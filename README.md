@@ -123,13 +123,3 @@ Testar a conexao entre os containers do airflow e do airbyte
 Criar as conexões com o Airbyte através do script
 
 Testar a execução do pipeline
-
-Encerramento:
-
-Material de Apoio:
-
-Links
-
-Códigos fonte
-
-Apresentação
