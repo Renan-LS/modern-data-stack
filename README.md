@@ -4,6 +4,8 @@ Se utilizando de um ambiente de desenvolvimento online, foi elaborado uma pipeli
 
 As tabelas extraídas da fonte primária de dados foram: Economy, Demographics, Index e Epidemiology. A tabela final contendo os dados extraídos e tratados é a covid19_model.
 
+Através do Airflow foi possível a criação de DAGs para que a atualização dos dados fosse diária.
+
 
 Tecnologias Utilizadas:
 
