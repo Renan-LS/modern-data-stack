@@ -1,4 +1,4 @@
-Projeto de engenharia de dados : MODERN-DATA-STACK
+# Projeto de engenharia de dados : MODERN-DATA-STACK
 
 Se utilizando de um ambiente de desenvolvimento online, foi elaborado uma pipeline para tratamento de dados extraídos do Google Open data a respeito do Covid-19, alocados em um DW e posteriormente tratados de modo a gerar e modelar uma nova fonte de dados, apenas com as informações mais relevantes (escolhidas ao acaso), simulando um processo completo de Extração, carregamento e tratamento de dados (ELT).
 
@@ -30,5 +30,4 @@ Abaixo segue as ferramentas utilizadas neste trabalho, bem como uma ilustração
 ![pipeline](https://user-images.githubusercontent.com/120025497/207061621-b42c2666-041f-4486-b5a9-6db76ac006b1.jpg)
 
 
-créditos das imagens e conhecimento adquirido: Stack Academy
-    
+
